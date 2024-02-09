@@ -11,7 +11,6 @@
 .top-bar {
     background-color: var(--beige);
 }
-
 .top-bar .social-logos svg {
     height: 24px;
 }
@@ -26,8 +25,24 @@
     background-color: var(--black);
     border-radius: 0;
     padding: .28em .47em .47em .47em;
+    transition: .3s all;
 }
-
+.search-btn:hover {
+    background-color: var(--beigeDarker);
+}
+.search-btn svg {
+    display: inline-block;
+}
+.search-btn svg:nth-of-type(2) {
+    display: none;
+}
+.search-btn:hover svg:nth-of-type(1) {
+    display: none;
+}
+.search-btn:hover svg:nth-of-type(2) {
+    display: inline-block;
+    /* background-color: var(--cyans); */
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
