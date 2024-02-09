@@ -1,0 +1,36 @@
+/* Default styles - small devices (Mobile, screen width < 768px) */
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+.top-bar {
+    background-color: var(--beige);
+}
+
+.top-bar .social-logos svg {
+    height: 24px;
+}
+#search input {
+    border-radius: 0;
+    border-color: #ffffff;
+}
+#search input::placeholder {
+    color: var(--lightGray);
+}
+.search-btn {
+    background-color: var(--black);
+    border-radius: 0;
+    padding: .28em .47em .47em .47em;
+}
+
+/*--------------------------------------------------------------
+# Main Navigation
+--------------------------------------------------------------*/
+.main-nav {
+    background-color: var(--black);
+}
