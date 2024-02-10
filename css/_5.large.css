@@ -2,4 +2,14 @@
 
 @media (min-width: 992px) {
 
+.top-bar {
+        display: flex!important;
+        flex-basis: auto;
+}
+.mobile-search-btn {
+    display: none;
+}
+
+
+
 }
