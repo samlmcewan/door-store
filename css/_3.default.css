@@ -63,7 +63,9 @@
 }
 
 #main-nav a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+    font-weight: 600;
 }
 
 #main-nav .nav-item {
@@ -78,7 +80,7 @@
 }
 
 #main-nav .active .nav-link {
-     color: #ffffff;
+     color: var(--cyan);
      font-weight: 600;
 }
 

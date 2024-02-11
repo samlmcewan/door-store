@@ -10,6 +10,24 @@
     display: none;
 }
 
+#main-nav .nav-item.active a {
+    border-left: none;
+    border-bottom: 2px solid var(--beige);
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.navbar-nav .nav-item, .navbar ul li:first-child {
+    /* padding: 0; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#main-nav .nav-item a {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
 
 
 }
