@@ -1,5 +1,10 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+    .hero-text h1 {
+        color: var(--beige);
+        font-size: 1.9rem;
+    }
     
 }

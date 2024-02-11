@@ -28,6 +28,16 @@
     padding-bottom: .5em;
 }
 
+.hero img {
+    /* height: 465px;
+    width: 534px; */
+}
+
+.hero-text h1 {
+    color: var(--beige);
+    font-size: 3.5rem;
+}
+
 
 
 }
