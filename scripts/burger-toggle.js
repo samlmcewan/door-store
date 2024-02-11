@@ -1,4 +1,4 @@
-const animatedIcon = document.querySelector(".animated-icon");
+const animatedIcon = document.querySelector(".navbar-toggler .animated-icon");
 const navbarToggler = document.querySelector("#main-nav .navbar-toggler");
 
 navbarToggler.addEventListener('click', (e) => {
