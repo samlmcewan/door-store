@@ -38,8 +38,11 @@
     font-size: 3.15rem;
 }
 
-.guide h2, .our-doors h2 {
+.guide h2, .our-doors h2, .about-us h2 {
     font-size: 2.3rem;
+}
+.about-us .card h3 {
+    font-size: 1.5rem;
 }
 
 

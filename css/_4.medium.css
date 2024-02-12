@@ -14,11 +14,17 @@
         height: fit-content;
     }
 
-    .guide h2, .our-doors h2 {
+    .guide h2, .our-doors h2, .about-us h2 {
         font-size: 2.8rem;
     }
     .guide hr {
         display: none;
+    }
+    .about-us .card svg {
+        height: 80px;
+    }
+    .about-us .card h3 {
+        font-size: 1.2rem;
     }
   
     

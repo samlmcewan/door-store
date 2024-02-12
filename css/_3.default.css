@@ -3,7 +3,9 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-
+body {
+    font-size: 1.125rem;
+}
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -293,7 +295,7 @@
     
 
 /*--------------------------------------------------------------
-# Hero
+# Hero - Homepage
 --------------------------------------------------------------*/
 @media(max-width: 991px) {
     .hero .container {
@@ -322,7 +324,7 @@
     color: #ffffff;
 }
 /*--------------------------------------------------------------
-# Guide
+# Guide - Homepage
 --------------------------------------------------------------*/
 .guide .container-fluid {
     background-color: var(--beige);
@@ -342,7 +344,7 @@
 }
 
 /*--------------------------------------------------------------
-# Our Doors
+# Our Doors - Homepage
 --------------------------------------------------------------*/
 .our-doors .container-fluid {
     background-color: var(--black);
@@ -385,4 +387,49 @@
 
 .our-doors .card:hover h3, .our-doors .card:hover h3 span, .our-doors .card:hover p, .our-doors .card:hover p span {
     color: var(--black);
+}
+
+/*--------------------------------------------------------------
+# About Us homepage
+--------------------------------------------------------------*/
+.about-us h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.about-us h2 span {
+    color: var(--beige);
+}
+.about-us .card {
+    background-color: var(--black);
+    border-radius: 1em;
+}
+.about-us .card svg {
+    height: 100px;
+}
+.about-us .card h3 {
+    font-size: 1.5rem;
+}
+.about-us .card h3, .about-us .card p {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.about-us .card p span {
+    color: var(--beige);
+}
+.about-us a.card {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.about-us .card:hover {
+    background-color: var(--beige);
+    cursor: pointer;
+}
+
+.about-us .card:hover h3, .about-us .card:hover p, .about-us .card:hover p span {
+    color: var(--black);
+}
+
+.about-us .card:hover svg, .about-us .card:hover svg g path, .about-us .card:hover svg g rect, .about-us .card:hover svg g polygon {
+    fill: var(--black)!important;
 }
