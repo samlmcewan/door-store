@@ -340,3 +340,49 @@
 .guide svg {
     max-height: 135px;
 }
+
+/*--------------------------------------------------------------
+# Our Doors
+--------------------------------------------------------------*/
+.our-doors .container-fluid {
+    background-color: var(--black);
+}
+.our-doors h2 {
+    color: var(--beige);
+    font-size: 2.6rem;
+}
+.our-doors h2 span {
+    color: #ffffff;
+}
+.our-doors .card {
+    background-color: transparent;
+    transition: all .3s;
+}
+.our-doors h3 {
+    text-transform: uppercase;
+}
+.our-doors h3 span, .our-doors p span {
+    color: var(--beige);
+}
+.our-doors a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.our-doors svg {
+    max-height: 155px;
+}
+.our-doors a {
+    border: 1px solid #B6AC943a;
+}
+.our-doors .card:hover {
+    background-color: var(--beige);
+    cursor: pointer;
+}
+
+.our-doors .card:hover svg g polyline, .our-doors .card:hover svg g path, .our-doors .card:hover svg g rect, .our-doors .card:hover svg g polygon {
+    fill: var(--black)!important;
+}
+
+.our-doors .card:hover h3, .our-doors .card:hover h3 span, .our-doors .card:hover p, .our-doors .card:hover p span {
+    color: var(--black);
+}

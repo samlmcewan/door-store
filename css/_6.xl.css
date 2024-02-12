@@ -4,7 +4,7 @@
     .hero-text h1 {
         font-size: 4rem;
     }
-    .guide h2 {
+    .guide h2, .our-doors h2 {
         font-size: 3.3rem;
     }
 }
