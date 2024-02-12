@@ -4,8 +4,14 @@
     .hero-text h1 {
         font-size: 4rem;
     }
-    .guide h2, .our-doors h2, .about-us h2 {
+    .guide h2, .our-doors h2, .about-us h2, .testimonials h2 {
         font-size: 3.3rem;
+    }
+    .testimonials-text p {
+        font-size: 2rem;
+    }
+    .testimonials-text .text-footer {
+        font-size: 1.125rem;
     }
 }
         

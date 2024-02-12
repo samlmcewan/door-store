@@ -7,14 +7,14 @@
         font-size: 1.9rem;
     }
 
-    .hero-text-col {
+    .hero-text-col, .testimonials-text-col {
         background-color: var(--black);
     }
-    .hero-text-container {
+    .hero-text-container, .testimonials-text-container {
         height: fit-content;
     }
 
-    .guide h2, .our-doors h2, .about-us h2 {
+    .guide h2, .our-doors h2, .about-us h2, .testimonials h2 {
         font-size: 2.8rem;
     }
     .guide hr {
@@ -25,6 +25,9 @@
     }
     .about-us .card h3 {
         font-size: 1.2rem;
+    }
+    .testimonials-text p {
+        font-size: 1.125rem;
     }
   
     
