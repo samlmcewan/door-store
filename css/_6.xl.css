@@ -2,8 +2,10 @@
 
 @media only screen and (min-width: 1200px) {
     .hero-text h1 {
-       
         font-size: 4rem;
+    }
+    .guide h2 {
+        font-size: 3.3rem;
     }
 }
         
