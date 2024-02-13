@@ -535,7 +535,7 @@ h1, h2, h3, h4 {
     background-color: var(--black);
     margin-bottom: 6em;
 }
-.inner-header h1 span , p {
+.inner-header h1 span , .inner-header p {
     color: #ffffff;
 }
 .inner-header h1 {
