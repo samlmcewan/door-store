@@ -21,11 +21,21 @@ h1, h2, h3, h4 {
     font-weight: 700;
     font-style: normal;
   }
+  .btn.btn-gold {
+    background-color: var(--gold);
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
 .top-bar {
-    background-color: var(--beige);
+    background-color: var(--gold);
 }
 .top-bar .social-logos a {
     text-decoration: none;
@@ -47,7 +57,7 @@ h1, h2, h3, h4 {
     transition: .3s all;
 }
 .search-btn:hover {
-    background-color: var(--beigeDarker);
+    background-color: var(--goldDarker);
 }
 .search-btn svg {
     display: inline-block;
@@ -88,7 +98,7 @@ h1, h2, h3, h4 {
     transition: all .3s;
 }
 #main-nav a:hover {
-    color: var(--beige);
+    color: var(--gold);
 }
 
 #main-nav .nav-item {
@@ -103,7 +113,7 @@ h1, h2, h3, h4 {
 }
 
 #main-nav .active .nav-link {
-     color: var(--beige);
+     color: var(--gold);
      font-weight: 600;
 }
 
@@ -316,7 +326,7 @@ h1, h2, h3, h4 {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs .container-fluid {
-    background-color: var(--beige);
+    background-color: var(--gold);
 }
 .breadcrumb-item a {
     color: #ffffff;
@@ -351,10 +361,10 @@ h1, h2, h3, h4 {
     height: 100%;
 }
 .hero-text {
-    border: 10px solid var(--beige)
+    border: 10px solid var(--gold)
 }
 .hero-text h1 {
-    color: var(--beige);
+    color: var(--gold);
     font-size: 2.6rem;
 }
 .hero-text span {
@@ -364,7 +374,7 @@ h1, h2, h3, h4 {
 # Guide - Homepage
 --------------------------------------------------------------*/
 .guide .container-fluid {
-    background-color: var(--beige);
+    background-color: var(--gold);
 }
 .guide h2 {
     font-size: 2.6rem;
@@ -387,7 +397,7 @@ h1, h2, h3, h4 {
     background-color: var(--black);
 }
 .our-doors h2 {
-    color: var(--beige);
+    color: var(--gold);
     font-size: 2.6rem;
 }
 .our-doors h2 span {
@@ -402,7 +412,7 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 .our-doors h3 span, .our-doors p span {
-    color: var(--beige);
+    color: var(--gold);
 }
 .our-doors a {
     color: #ffffff;
@@ -417,7 +427,7 @@ h1, h2, h3, h4 {
     border: 1px solid #B6AC943a;
 }
 .our-doors .card:hover {
-    background-color: var(--beige);
+    background-color: var(--gold);
     cursor: pointer;
 }
 
@@ -437,7 +447,7 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 .about-us h2 span {
-    color: var(--beige);
+    color: var(--gold);
 }
 .about-us .card {
     background-color: var(--black);
@@ -454,7 +464,7 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 .about-us .card p span {
-    color: var(--beige);
+    color: var(--gold);
 }
 .about-us a.card {
     text-decoration: none;
@@ -462,7 +472,7 @@ h1, h2, h3, h4 {
 }
 
 .about-us .card:hover {
-    background-color: var(--beige);
+    background-color: var(--gold);
     cursor: pointer;
 }
 
@@ -484,7 +494,7 @@ h1, h2, h3, h4 {
     }
 }
 .testimonials .container-fluid {
-    background-color: var(--beige);
+    background-color: var(--gold);
 }
 .testimonials img {
     width: 100%;
@@ -496,14 +506,14 @@ h1, h2, h3, h4 {
     height: 100%;
 }
 .testimonials-text {
-    border: 10px solid var(--beige)
+    border: 10px solid var(--gold)
 }
 .testimonials-text p {
     color: #ffffff;
     font-size: 1.25rem;
 }
 .testimonials-text .text-footer {
-    color: var(--beige);
+    color: var(--gold);
     text-transform: uppercase;
     font-size: 1rem;
 }
@@ -528,17 +538,43 @@ h1, h2, h3, h4 {
     color: #ffffff;
 }
 .inner-header h1 {
-    color: var(--beige);
+    color: var(--gold);
     font-size: 2.6rem;
 }
 
 .inner-header img {
-    border: 10px solid var(--beige);
+    border: 10px solid var(--gold);
     width: 100%;
     margin-bottom: -5em;
 }
 .inner-header p:last-of-type {
     margin-bottom: 0;
+}
+
+/* Landing Cards  */
+.doors-landing-cards .sub-title {
+    color: var(--gold);
+    font-size: 1.75rem;
+}
+.doors-landing-cards .card-header, .doors-landing-cards .card-body, .doors-landing-cards .card-footer {
+    background-color: var(--offWhite);
+}
+.doors-landing-cards .card, .doors-landing-cards .card-header, .doors-landing-cards .card-footer {
+    border: none;
+    border-radius: 0;
+}
+.doors-landing-cards img {
+    object-fit: cover;
+}
+
+.doors-landing-cards h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.doors-landing-cards a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 
@@ -556,7 +592,7 @@ footer {
 }
 
 footer#footer {
-    border-top: 2px solid var(--beige);
+    border-top: 2px solid var(--gold);
 }
     footer a span {
         color: var(--cyan);
@@ -577,11 +613,11 @@ footer#footer {
 
         footer a:hover {
             /* text-decoration: underline; */
-            color: var(--beigeDarker);
+            color: var(--goldDarker);
         }
 
             footer a:hover span {
-                color: var(--beigeDarker);
+                color: var(--goldDarker);
             }
 
 
@@ -734,5 +770,5 @@ footer .fa-chevron-right {
 
 .sub-footer {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--gold);
 }

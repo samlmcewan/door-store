@@ -3,7 +3,7 @@
 @media (min-width: 768px) {
 
     .hero-text h1, .inner-header h1 {
-        color: var(--beige);
+        color: var(--gold);
         font-size: 1.9rem;
     }
 
