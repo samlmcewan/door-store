@@ -85,6 +85,10 @@ h1, h2, h3, h4 {
     /* text-transform: uppercase; */
     color: #ffffff;
     font-weight: 600;
+    transition: all .3s;
+}
+#main-nav a:hover {
+    color: var(--beige);
 }
 
 #main-nav .nav-item {
@@ -513,6 +517,18 @@ h1, h2, h3, h4 {
     color: #ffffff;
 }
 
+/*--------------------------------------------------------------
+# Inner Header
+--------------------------------------------------------------*/
+.inner-header .container {
+    background-color: var(--black);
+}
+.inner-header h1 span , p {
+    color: #ffffff;
+}
+.inner-header h1 {
+    color: var(--beige);
+}
 
 
 /*--------------------------------------------------------------
