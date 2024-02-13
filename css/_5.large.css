@@ -12,7 +12,8 @@
 
 #main-nav .nav-item.active a {
     border-left: none;
-    border-bottom: 2px solid var(--beige);
+    border-bottom: 2px solid var(--cyan);
+    color: var(--cyan);
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
 }
@@ -39,7 +40,7 @@
 }
 
 .guide h2, .our-doors h2, .about-us h2, .testimonials h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
 }
 .about-us .card h3 {
     font-size: 1.5rem;

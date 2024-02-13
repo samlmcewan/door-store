@@ -5,8 +5,22 @@
 --------------------------------------------------------------*/
 body {
     font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+.allan-regular {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .allan-bold {
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -77,7 +91,7 @@ body {
     /* border-bottom: 1px solid #132a441a; */
 }
 #main-nav .nav-item.active a {
-    border-left: 2px solid var(--beige);
+    border-left: 2px solid var(--cyan);
     padding-left: 1em;
 }
 #main-nav .btn {
@@ -85,7 +99,7 @@ body {
 }
 
 #main-nav .active .nav-link {
-     color: var(--cyan);
+     color: var(--beige);
      font-weight: 600;
 }
 
@@ -487,9 +501,10 @@ footer {
     font-size: 1rem;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+#footer .social-logos a:hover svg g rect {
+    fill: var(--black)!important;
+}
+
 footer#footer {
     border-top: 2px solid var(--beige);
 }
