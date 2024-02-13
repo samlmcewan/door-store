@@ -34,7 +34,7 @@
     width: 534px; */
 }
 
-.hero-text h1 {
+.hero-text h1, .inner-header h1 {
     color: var(--beige);
     font-size: 3.15rem;
 }
@@ -48,6 +48,14 @@
 
 .testimonials-text p {
     font-size: 1.35rem;
+}
+
+.inner-header .container {
+    margin-bottom: 5em;
+
+}
+.inner-header img {
+    margin-bottom: -6em;
 }
 
 /* Footer - Large Devices */

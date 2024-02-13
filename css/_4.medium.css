@@ -2,7 +2,7 @@
 
 @media (min-width: 768px) {
 
-    .hero-text h1 {
+    .hero-text h1, .inner-header h1 {
         color: var(--beige);
         font-size: 1.9rem;
     }
@@ -28,6 +28,17 @@
     }
     .testimonials-text p {
         font-size: 1.125rem;
+    }
+
+    .inner-header .container {
+        margin-bottom: 5em;
+
+    }
+    .inner-header img {
+        margin-bottom: -14em;
+    }
+    .inner-header p {
+        font-size: 1rem;
     }
 
         /* Footer - Medium devices */

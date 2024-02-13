@@ -522,13 +522,26 @@ h1, h2, h3, h4 {
 --------------------------------------------------------------*/
 .inner-header .container {
     background-color: var(--black);
+    margin-bottom: 6em;
 }
 .inner-header h1 span , p {
     color: #ffffff;
 }
 .inner-header h1 {
     color: var(--beige);
+    font-size: 2.6rem;
 }
+
+.inner-header img {
+    border: 10px solid var(--beige);
+    width: 100%;
+    margin-bottom: -5em;
+}
+.inner-header p:last-of-type {
+    margin-bottom: 0;
+}
+
+
 
 
 /*--------------------------------------------------------------
