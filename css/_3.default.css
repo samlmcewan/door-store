@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
 --------------------------------------------------------------*/
 .top-bar {
     background-color: var(--gold);
+    border-bottom: 2px solid var(--black);
 }
 .top-bar .social-logos a {
     text-decoration: none;

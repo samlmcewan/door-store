@@ -1,6 +1,37 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
+
+    .top-bar {
+        display: flex!important;
+        flex-basis: auto;
+        border-bottom: 0;
+}
+.mobile-search-btn {
+    display: none;
+}
+
+#main-nav .nav-item.active a {
+    border-left: none;
+    border-bottom: 2px solid var(--cyan);
+    color: var(--cyan);
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.navbar-nav .nav-item, .navbar ul li:first-child {
+    /* padding: 0; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#main-nav .nav-item a {
+    font-size: 1rem;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+
     .hero-text h1, .inner-header h1 {
         font-size: 4rem;
     }
