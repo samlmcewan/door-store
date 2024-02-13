@@ -586,7 +586,7 @@ footer .fab:before {
     font-size: 1.1rem;
 }
 
-.social-footer ul li a:hover i {
+.social-footer a:hover svg {
     /*color: var(--links); */
     animation: icons-rise 0.3s linear forwards;
 }
@@ -594,7 +594,12 @@ footer .fab:before {
 #footer .social-logos svg {
    width: 30px;
    height: 30px;
+   transition: all .3s;
 }
+#footer .social-logos svg g rect{
+   
+    transition: all .3s;
+ }
 #footer h4 {
     font-size: 1rem;
     margin-top: 2rem;

@@ -62,8 +62,10 @@ footer ul li {
 margin-bottom: 10px;
 
 }
-    
-footer ul li a:hover .fa-chevron-right {
+footer ul li span {
+    display: inline-block;
+}
+footer ul li a:hover span {
     animation: arrow-right 0.3s linear forwards; 
           
       }
@@ -72,7 +74,7 @@ footer ul li a:hover .fa-chevron-right {
     from {
       transform: translateX(0px); }
     to {
-      transform: translateX(3px); } 
+      transform: translateX(2px); } 
       
   }
 
