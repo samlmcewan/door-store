@@ -306,6 +306,25 @@ h1, h2, h3, h4 {
     /* .mobile-search-btn svg {
         opacity: 1;
     } */
+
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs .container-fluid {
+    background-color: var(--beige);
+}
+.breadcrumb-item a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.breadcrumb-item.active {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
     
 
 /*--------------------------------------------------------------
@@ -493,6 +512,8 @@ h1, h2, h3, h4 {
 .testimonials h2 span {
     color: #ffffff;
 }
+
+
 
 /*--------------------------------------------------------------
 # Footer
