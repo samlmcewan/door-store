@@ -29,6 +29,12 @@
     .testimonials-text p {
         font-size: 1.125rem;
     }
+
+        /* Footer - Medium devices */
+    
+        .shfooter .collapse {
+            display: none;
+        }
   
     
 }
