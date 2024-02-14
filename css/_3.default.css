@@ -33,6 +33,9 @@ h1, h2, h3, h4 {
   .v-hidden {
     visibility: hidden;
   }
+  /* *:hover {
+    cursor: pointer!important;
+  } */
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -603,26 +606,102 @@ h1, h2, h3, h4 {
 }
 
 /* Child landing cards  */
+@media(max-width: 991px)  {
+    .doors-child-landing-cards .card .card-body h2, .doors-child-landing-cards .card .card-body h3 {
+        font-size: 2rem;
+    }
+}
 .doors-child-landing-cards .card {
     background-color: var(--offWhite);
     border-radius: 0;
+    transition: all .3s;
 }
 .doors-child-landing-cards .card .card-footer {
     background-color: var(--offWhiteDark);
+    transition: all .3s;
 }
 .doors-child-landing-cards .card, .doors-child-landing-cards .card .card-body, .doors-child-landing-cards .card .card-header, .doors-child-landing-cards .card .card-footer {
     border: none;
+    border-radius: 0;
 }
 .doors-child-landing-cards .card .card-body h2 {
-    color: var(--black);
     font-weight: 500;
+}
+.doors-child-landing-cards .card .card-body h2, .doors-child-landing-cards .card .card-body h3 {
+    color: var(--black);
 } 
+.doors-child-landing-cards .card .card-body h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.doors-child-landing-cards .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 3rem;
+}
 .doors-child-landing-cards .card .card-body .sub-title {
     color: var(--gold);
 }
 
 .doors-child-landing-cards a {
+    color: var(--black);
     text-decoration: none;
+}
+
+.doors-child-landing-cards .card .card-footer p span {
+    color: var(--goldDarker);
+}
+
+.doors-child-landing-cards .card .card-footer p {
+    font-size: 1rem;
+}
+.doors-child-landing-cards a.card:hover, .doors-child-landing-cards .card-header:hover, .doors-child-landing-cards .card-footer:hover, .doors-child-landing-cards .card-body:hover {
+    cursor: pointer;
+}
+.doors-child-landing-cards .card-header {
+    background-color: #ffffff;
+}
+.doors-child-landing-cards a:hover, .doors-child-landing-cards a:hover .card-footer {
+    background-color: var(--black);
+}
+.doors-child-landing-cards a.card:hover h2, .doors-child-landing-cards a.card:hover h3, .doors-child-landing-cards a.card:hover p {
+    color: var(--gold);
+}
+.doors-child-landing-cards a.card:hover img {
+    opacity: .75;
+}
+
+/*--------------------------------------------------------------
+# Pagination
+--------------------------------------------------------------*/
+.paging .page-number .btn-pager {
+    background-color: var(--black);
+    border-radius: 0;
+}
+.paging .page-number .btn-pager {
+    color: var(--gold);
+    border: 2px solid var(--black);
+}
+.paging .page-number .btn-pager.active {
+    color: #ffffff;
+}
+.paging .page-number .btn-pager:hover:not(.paging .page-number .btn-pager.active) {
+    background-color: var(--gold);
+    color: var(--black);
+    cursor: pointer;
+}
+/*--------------------------------------------------------------
+# Door 
+--------------------------------------------------------------*/
+.door-info .door-heading {
+    background-color: var(--offWhite);
+}
+
+.door-info .door-img img {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
 }
 
 /*--------------------------------------------------------------

@@ -42,6 +42,22 @@
     min-height: 120px;
 }
 
+/* Door  */
+.door-info .container {
+    border-top: 5px solid var(--offWhite);
+    border-left: 5px solid var(--offWhite);
+    border-right: 5px solid var(--offWhite);
+}
+.door-info .door-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .door-text {
+    border-left: 5px solid var(--gold);
+    border-right: 5px solid var(--gold);
+} */
+
 /* Footer - Large Devices */
 
 .shfooter .collapse {
