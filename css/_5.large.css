@@ -35,6 +35,13 @@
     margin-bottom: -6em;
 }
 
+.doors-landing-cards .card h2 {
+    font-size: 2rem;
+}
+.doors-landing-cards .card .card-header {
+    min-height: 120px;
+}
+
 /* Footer - Large Devices */
 
 .shfooter .collapse {

@@ -41,6 +41,13 @@
         font-size: 1rem;
     }
 
+    .doors-landing-cards .card h2 {
+        font-size: 2.3rem;
+    }
+    .doors-landing-cards .card .card-header {
+        min-height: 120px;
+    }
+
         /* Footer - Medium devices */
     
         .shfooter .collapse {

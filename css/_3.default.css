@@ -559,15 +559,13 @@ h1, h2, h3, h4 {
 .doors-landing-cards .sub-title {
     color: var(--gold);
     font-size: 1.75rem;
+    margin-bottom: 0;
 }
 .doors-landing-cards .card {
     background-color: var(--offWhite);
     transition: all .3s;
 }
-.doors-landing-cards .card-body {
-    background-color: #ffffff;
-}
-.doors-landing-cards .card-header, .doors-landing-cards .card-footer {
+.doors-landing-cards .card-header, .doors-landing-cards .card-footer, .doors-landing-cards .card-body {
     background-color: transparent;
 }
 .doors-landing-cards .card, .doors-landing-cards .card-header, .doors-landing-cards .card-footer {
@@ -579,7 +577,6 @@ h1, h2, h3, h4 {
     height: 420px;
     object-fit: cover;
 }
-
 .doors-landing-cards h2 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -591,19 +588,42 @@ h1, h2, h3, h4 {
 .doors-landing-cards .row .col-md-6.col-lg-4:last-child .sub-title {
     visibility: hidden;
 }
-.doors-landing-cards a:hover {
-    background-color: var(--goldDarker);
+.doors-landing-cards a:hover, .doors-landing-cards .card:hover {
+    background-color: var(--black);
     cursor: pointer;
 }
-.doors-landing-cards a:hover .sub-title {
-    color: var(--black);
+.doors-landing-cards a:hover h2, .doors-landing-cards a:hover .sub-title {
+    color: var(--gold);
+}
+.doors-landing-cards .card-body {
+    background-color: #ffffff;
 }
 .doors-landing-cards a:hover img {
-    opacity: .9;
+    opacity: .75;
 }
 
+/* Child landing cards  */
+.doors-child-landing-cards .card {
+    background-color: var(--offWhite);
+    border-radius: 0;
+}
+.doors-child-landing-cards .card .card-footer {
+    background-color: var(--offWhiteDark);
+}
+.doors-child-landing-cards .card, .doors-child-landing-cards .card .card-body, .doors-child-landing-cards .card .card-header, .doors-child-landing-cards .card .card-footer {
+    border: none;
+}
+.doors-child-landing-cards .card .card-body h2 {
+    color: var(--black);
+    font-weight: 500;
+} 
+.doors-child-landing-cards .card .card-body .sub-title {
+    color: var(--gold);
+}
 
-
+.doors-child-landing-cards a {
+    text-decoration: none;
+}
 
 /*--------------------------------------------------------------
 # Footer

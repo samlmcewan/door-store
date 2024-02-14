@@ -53,5 +53,9 @@
     .inner-header p {
         font-size: 1.5rem;
     }
+    .doors-landing-cards a:hover, .doors-landing-cards .card:hover {
+        background-color: var(--black);
+        cursor: pointer;
+    }
 }
         
