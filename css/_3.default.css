@@ -568,6 +568,8 @@ h1, h2, h3, h4 {
     border-radius: 0;
 }
 .doors-landing-cards img {
+    width: 100%;
+    height: 420px;
     object-fit: cover;
 }
 
