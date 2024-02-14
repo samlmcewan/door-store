@@ -703,6 +703,25 @@ h1, h2, h3, h4 {
     height: 500px;
     object-fit: cover;
 }
+.door-contact {
+    overflow: hidden;
+}
+.door-contact .container {
+    background-color: var(--offWhite);
+}
+.door-contact .card {
+    background-color: var(--black);
+}
+.door-contact .card svg {
+    height: 83px;
+}
+.door-contact .card .card-body h3 {
+    color: var(--gold);
+}
+.door-contact .card p {
+    color: #ffffff;
+    font-size: 1.75rem;
+}
 
 /*--------------------------------------------------------------
 # Footer
