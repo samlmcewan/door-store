@@ -560,8 +560,15 @@ h1, h2, h3, h4 {
     color: var(--gold);
     font-size: 1.75rem;
 }
-.doors-landing-cards .card-header, .doors-landing-cards .card-body, .doors-landing-cards .card-footer {
+.doors-landing-cards .card {
     background-color: var(--offWhite);
+    transition: all .3s;
+}
+.doors-landing-cards .card-body {
+    background-color: #ffffff;
+}
+.doors-landing-cards .card-header, .doors-landing-cards .card-footer {
+    background-color: transparent;
 }
 .doors-landing-cards .card, .doors-landing-cards .card-header, .doors-landing-cards .card-footer {
     border: none;
@@ -577,13 +584,22 @@ h1, h2, h3, h4 {
     font-size: 2.5rem;
     font-weight: 500;
 }
-
 .doors-landing-cards a {
     text-decoration: none;
     color: var(--black);
 }
 .doors-landing-cards .row .col-md-6.col-lg-4:last-child .sub-title {
     visibility: hidden;
+}
+.doors-landing-cards a:hover {
+    background-color: var(--goldDarker);
+    cursor: pointer;
+}
+.doors-landing-cards a:hover .sub-title {
+    color: var(--black);
+}
+.doors-landing-cards a:hover img {
+    opacity: .9;
 }
 
 
