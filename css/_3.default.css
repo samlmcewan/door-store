@@ -30,6 +30,9 @@ h1, h2, h3, h4 {
     padding: 1em;
     text-transform: uppercase;
   }
+  .v-hidden {
+    visibility: hidden;
+  }
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -576,6 +579,9 @@ h1, h2, h3, h4 {
 .doors-landing-cards a {
     text-decoration: none;
     color: var(--black);
+}
+.doors-landing-cards .row .col-md-6.col-lg-4:last-child .sub-title {
+    visibility: hidden;
 }
 
 
